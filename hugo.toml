@@ -7,20 +7,23 @@ theme = 'PaperMod'
   [caches.images]
     dir = ':cacheDir/images'
 
-# menus
+# menu
 [[menus.main]]
+# Blog posts
     name = "Posts"
     url = "/posts/"
     weight = 10
 
+# About my research
 [[menus.main]]
-    name = "Archives"
-    url = "/archives/"
+    name = "Publications"
+    url = "/publications/"
     weight = 20
 
+# My CV
 [[menus.main]]
-    name = "Search"
-    url = "/search/"
+    name = "About me"
+    url = "/about/"
     weight = 30
 
 [params]
