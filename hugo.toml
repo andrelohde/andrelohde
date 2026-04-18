@@ -6,3 +6,24 @@ theme = 'PaperMod'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+# menus
+[[menus.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+[[menus.main]]
+    name = "Archives"
+    url = "/archives/"
+    weight = 20
+
+[[menus.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 30
+
+[params]
+    # Set defaultTheme to "light"
+    defaultTheme = "light"
+    disableThemeToggle = true
