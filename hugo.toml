@@ -3,18 +3,6 @@ locale = 'en-us'
 title = 'Personal website'
 theme = 'PaperMod'
 
-# This defines the menu
-[[menus.main]]
-    name = "Blog"
-    url = "/content"
-    weight = 10
-
-[[menus.main]]
-    name = "Search"
-    url = "/search"
-    weight = 20
-
-[[menus.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 30
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
