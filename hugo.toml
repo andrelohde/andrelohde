@@ -30,3 +30,6 @@ theme = 'PaperMod'
     # Set defaultTheme to "light"
     defaultTheme = "light"
     disableThemeToggle = true
+
+[markup.goldmark.renderer]
+    unsafe = true # allow raw html

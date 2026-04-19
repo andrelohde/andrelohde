@@ -1,0 +1,22 @@
+/* Adjust the main content width */
+.main {
+    max-width: 1000px; /* Default is usually around 800px */
+}
+
+/* Adjust the header/footer width to match */
+.footer, .nav {
+    max-width: 1000px;
+}
+
+.wide-content {
+    width: 120%; /* Makes it wider than the parent container */
+    margin-left: -10%; /* Centers it back after stretching */
+}
+
+/* Class for profile picture */ 
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
