@@ -31,6 +31,6 @@ theme = 'PaperMod'
     #disableThemeToggle = true
     home = "/about/"
     showFullContents = false
-
+    
 [markup.goldmark.renderer]
     unsafe = true # allow raw html
