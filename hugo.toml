@@ -1,4 +1,4 @@
-baseURL = 'andrelohde.com'
+baseURL = 'https://andrelohde.com/'
 locale = 'en-us'
 title = 'André Lohde | PhD researcher'
 theme = 'PaperMod'
