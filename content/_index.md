@@ -1,10 +1,3 @@
-+++
-#date = '2026-04-19T10:45:27+02:00'
-draft = false
-#title = 'About me'
-layout = 'single'
-+++
-
 <div class="profile-pic"><img src="/img/andre.png" alt="Profile picture"></div>
 <div class="link-banner">
     <a href="https://www.linkedin.com/in/andrelohde/">
