@@ -20,4 +20,4 @@ Before my doctoral studies, I completed my master's in physics at the University
 
 Outside the lab, I am a passionate rock guitarist and marathon runner.
 
-If you want to get in touch, feel free to connect on [LinkedIn](https://www.linkedin.com/in/andrelohde/) or via andre.lohde(at)vu.nl!
+If you want to get in touch, feel free to connect on [LinkedIn](https://www.linkedin.com/in/andrelohde/) or via a.lohde(at)vu.nl!
