@@ -1,6 +1,6 @@
-baseURL = 'https://andrelohde.github.io/andrelohde/'
+baseURL = 'andrelohde.com'
 locale = 'en-us'
-title = 'Personal website'
+title = 'André Lohde | PhD researcher'
 theme = 'PaperMod'
 
 [caches]
@@ -8,28 +8,29 @@ theme = 'PaperMod'
     dir = ':cacheDir/images'
 
 # menu
-[[menus.main]]
-# Blog posts
-    name = "Posts"
-    url = "/posts/"
-    weight = 10
+# [[menus.main]]
+# # Blog posts
+#     name = "Posts"
+#     url = "/posts/"
+#     weight = 10
 
-# About my research
-[[menus.main]]
-    name = "Publications"
-    url = "/publications/"
-    weight = 20
+# # About my research
+# [[menus.main]]
+#     name = "Publications"
+#     url = "/publications/"
+#     weight = 20
 
-# My CV
-[[menus.main]]
-    name = "About me"
-    url = "/about/"
-    weight = 30
+# # My CV
+# [[menus.main]]
+#     name = "About me"
+#     url = "/about/"
+#     weight = 30
 
 [params]
-    # Set defaultTheme to "light"
     defaultTheme = "light"
-    disableThemeToggle = true
+    #disableThemeToggle = true
+    home = "/about/"
+    showFullContents = false
 
 [markup.goldmark.renderer]
     unsafe = true # allow raw html

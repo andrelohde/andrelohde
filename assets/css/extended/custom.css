@@ -18,5 +18,27 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
+  width: 280px;
+}
+
+/* Classes for the links below profile picture on about me */
+.link-banner {
+  display: flex;
+  justify-content: center;
+  gap: 20px;      
+  margin-top: 15px;
+  margin-bottom: 15px;       
+}
+.tiny-logo {
+  display: block;
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease-in-out;
+}
+.tiny-logo:hover {
+  transform: scale(1.2); 
+  cursor: pointer;
+}
+[data-theme="dark"] .tiny-logo {
+  filter: invert(1); /* Inverts black to white and boosts visibility */
 }
