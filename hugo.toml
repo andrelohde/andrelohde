@@ -1,4 +1,4 @@
-baseURL = 'https://andrelohde.com/'
+baseURL = 'https://andrelohde.github.io/andrelohde/'
 locale = 'en-us'
 title = 'Personal website'
 theme = 'PaperMod'
