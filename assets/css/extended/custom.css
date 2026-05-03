@@ -13,6 +13,11 @@
     margin-left: -10%; /* Centers it back after stretching */
 }
 
+/* simply remove margin for post content for now */
+.post-content {
+  margin-top: 0;
+}
+
 /* Class for profile picture */ 
 .profile-pic {
   display: block;
@@ -41,4 +46,12 @@
 }
 [data-theme="dark"] .tiny-logo {
   filter: invert(1); /* Inverts black to white and boosts visibility */
+}
+
+/* Responsive title for phones */
+@media screen and (max-width: 480px) {
+    .header .logo a {
+        font-size: 19px; /* Adjust this number until it fits on one line */
+        white-space: nowrap; /* Prevents wrapping entirely */
+    }
 }
