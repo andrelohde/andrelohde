@@ -1,6 +1,6 @@
 baseURL = 'https://andrelohde.com/'
 locale = 'en-us'
-title = 'André Lohde | PhD researcher'
+title = 'André Lohde | PhD researcher in quantum metrology'
 theme = 'PaperMod'
 
 [caches]
@@ -31,6 +31,6 @@ theme = 'PaperMod'
     #disableThemeToggle = true
     home = "/about/"
     showFullContents = false
-    
+
 [markup.goldmark.renderer]
     unsafe = true # allow raw html
