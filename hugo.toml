@@ -1,6 +1,6 @@
 baseURL = 'https://andrelohde.com/'
 locale = 'en-us'
-title = 'André Lohde | PhD researcher in quantum metrology'
+title = 'André Lohde | Quantum metrology'
 theme = 'PaperMod'
 
 [caches]
