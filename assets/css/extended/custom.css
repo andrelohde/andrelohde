@@ -26,6 +26,10 @@
   width: 250px;
 }
 
+.profile-pic img {
+    border-radius: 50%;
+}
+
 /* Classes for the links below profile picture on about me */
 .link-banner {
   display: flex;

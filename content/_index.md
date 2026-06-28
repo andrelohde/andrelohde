@@ -1,4 +1,6 @@
-<div class="profile-pic"><img src="/img/andre.png" alt="Profile picture"></div>
+<div class="profile-pic">
+    <img src="/img/lohde2.jpg" alt="Profile picture">
+</div>
 <div class="link-banner">
     <a href="https://www.linkedin.com/in/andrelohde/">
         <img class="tiny-logo" src="/img/linkedin.png" alt="LinkedIn" >
@@ -20,4 +22,6 @@ Before my doctoral studies, I completed my master's in physics at the University
 
 Outside the lab, I am a passionate rock guitarist and marathon runner.
 
-If you want to get in touch, feel free to connect on [LinkedIn](https://www.linkedin.com/in/andrelohde/) or via a.lohde(at)vu.nl!
+If you want to get in touch, feel free to connect on [LinkedIn](https://www.linkedin.com/in/andrelohde/) or via [E-mail](mailto:a.lohde@vu.nl)!
+
+[Click here to read more about my PhD journey so far!](/blog/hello-world)
