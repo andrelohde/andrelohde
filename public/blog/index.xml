@@ -6,6 +6,14 @@
     <description>Recent content in Blogs on André Lohde | Quantum metrology</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2026 21:15:19 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/blog/hello-world/</link>
+      <pubDate>Sun, 28 Jun 2026 21:15:19 +0200</pubDate>
+      <guid>http://localhost:1313/blog/hello-world/</guid>
+      <description>&lt;p&gt;Having had a glance at the vacuum pressure on our ion gauge, I turned around and saw something unusual on the screen. In all our previous runs, the photon counts remained stable, even when the oven source was running. Suddenly, it was steeply hiking upwards. I felt excited, but skeptical. I must have expressed my surprise, because now Johannes came around the table, curious as well. We decided to chop our repumping laser. Immediately, the signal was modulated in a clean binary manner. High signal, low signal, high signal, low signal, etc. And it was still growing. We turned the oven off.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
