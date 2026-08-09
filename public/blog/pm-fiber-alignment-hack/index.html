@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Blogs | André Lohde | Quantum metrology</title>
+<title>PM Fiber Alignment Hack | André Lohde | Quantum metrology</title>
 <meta name="keywords" content="">
-<meta name="description" content="Blogs - André Lohde | Quantum metrology">
+<meta name="description" content="Last week I returned from holiday to a Johannes who wasn&rsquo;t very happy with one of our lasers. It was acting up and lasers are my job, so naturally I had to deal with it. This is the 493 nm laser, our cooling laser - and laser cooling is quite important for ions - which was misbehaving, badly. As Johannes described it, the 493 nm laser power reaching our ion trap was fluctuating immensely.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/blog/">
+<link rel="canonical" href="http://localhost:1313/blog/pm-fiber-alignment-hack/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.568301c851b2768c88853de4dff9754c7aa83510f7ecdd8efb6a351b24f93ce0.css" integrity="sha256-VoMByFGydoyIhT3k3/l1THqoNRD37N2O&#43;2o1GyT5POA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blog/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/pm-fiber-alignment-hack/">
 <noscript>
     <style>
         #theme-toggle,
@@ -36,7 +35,7 @@
 
 </script>
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
@@ -68,25 +67,41 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    Blogs
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Hello World
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>We found ions! After months of laser alignment, vacuum bakes, and an emotional rollercoaster of troubleshooting, the Ba&#43; experiment at VU Amsterdam captured its first signal. Here is the story of that Thursday breakthrough and a look at our first two-ion crystal.</p>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      PM Fiber Alignment Hack
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-08-09 21:07:53 +0200 CEST'>August 9, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><p>Last week I returned from holiday to a Johannes who wasn&rsquo;t very happy with one of our lasers. It was acting up and lasers are <em>my job</em>, so naturally I had to deal with it. This is the 493 nm laser, our cooling laser - and laser cooling is quite important for ions - which was misbehaving, badly. As Johannes described it, the 493 nm laser power reaching our ion trap was fluctuating immensely.</p>
+<p>Now, I haven&rsquo;t been in the lab for a few weeks, but before my leave this hasn&rsquo;t been an issue for a while. Perhaps the temperature in the lab was fluctuating more than usual, after all we had a few quite hot days here in Amsterdam. Anyhow, when setting up the laser in the first place, coupling and the alignment of the polarisation-maintaining fiber incoupling was a pain in the ass. To explain to you why that might lead to power fluctuations I made a little illustration:</p>
+<ul>
+<li>Perhaps here I can enter an illustration of the setup - simple drawing with gwoptics</li>
+</ul>
+<p>As you can see, in my setup there are a lot of fibers involved. The reason why we chose to design our system like this is that it is <em>very</em> convenient. At least, once it is set up and working, any misalignment will only cause trouble in one part of the setup. So, if for any reason the coupling from the laser head to the first fiber gets messed up, I don&rsquo;t have to realign all 30 or so mirrors downstream. Also, we can store our optics in drawers inside a 19&quot; rack.</p>
+<ul>
+<li>Image of drawer</li>
+</ul>
+<p>Pretty neat, right?</p>
+<p>Anyways, atomic transitions are sensitive to polarisation, so we have to make sure to always deliver the same polarisation. And normal fibers are not good at that, because &ldquo;Optical fibers always exhibit some degree of birefringence, even if they have a circularly symmetric design because in practice there is always some amount of mechanical stress or other effect which breaks the symmetry. As a consequence, the polarization of light propagating in the fiber gradually changes in an uncontrolled (and wavelength-dependent) way, which also depends on any bending of the fiber and on its temperature.&rdquo; (RP photonics encyclopedia [^1])</p>
+<img src="/img/blog/pm-fiber-hack/photo_peltier_heater.jpg" alt="The peltier heater. Sorry for the photographer's thumb. It's cramped in there." width="50%"/>
+<p>[^1] The RP photonics encyclopedia is a fantastic resource, here&rsquo;s the article about Polarization-maintaining fibers: <a href="https://www.rp-photonics.com/polarization_maintaining_fibers.html"><a href="https://www.rp-photonics.com/polarization_maintaining_fibers.html">https://www.rp-photonics.com/polarization_maintaining_fibers.html</a></a>, accessed 09-08-2026.</p>
+
+
   </div>
-  <footer class="entry-footer">
 
-<span title='2026-06-28 21:15:19 +0200 CEST'>June 28, 2026</span></footer>
-  <a class="entry-link" aria-label="post link to Hello World" href="http://localhost:1313/blog/hello-world/"></a>
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
 </article>
     </main>
     
