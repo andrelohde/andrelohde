@@ -6,8 +6,15 @@
     <description>Recent content on André Lohde | Quantum metrology</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jun 2026 21:15:19 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 21:07:53 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PM Fiber Alignment Hack</title>
+      <link>http://localhost:1313/blog/pm-fiber-alignment-hack/</link>
+      <pubDate>Sun, 09 Aug 2026 21:07:53 +0200</pubDate>
+      <guid>http://localhost:1313/blog/pm-fiber-alignment-hack/</guid>
+      <description>Here, I share how I align the polarization of light for incoupling into a polarization-maintaining fiber, which I experience as often quite finicky.</description>
+    </item>
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/blog/hello-world/</link>

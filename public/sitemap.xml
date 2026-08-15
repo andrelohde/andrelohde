@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-28T21:15:19+02:00</lastmod>
+    <lastmod>2026-08-09T21:07:53+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-06-28T21:15:19+02:00</lastmod>
+    <lastmod>2026-08-09T21:07:53+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/pm-fiber-alignment-hack/</loc>
+    <lastmod>2026-08-09T21:07:53+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/hello-world/</loc>
     <lastmod>2026-06-28T21:15:19+02:00</lastmod>
