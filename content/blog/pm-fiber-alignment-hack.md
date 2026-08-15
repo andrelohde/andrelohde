@@ -1,8 +1,8 @@
 +++
 date = '2026-08-09T21:07:53+02:00'
 draft = false
-title = 'PM Fiber Alignment Hack'
-summary = 'Here, I share how I align the polarization of light for incoupling into a polarization-maintaining fiber, which I often experience as quite finicky.'
+title = 'About aligning polarization-maintaining fibers'
+summary = 'Here, I share how I use peltier elements to correctly align the polarization of light for incoupling into a polarization-maintaining fiber, which I often experience as quite finicky.'
 +++
 
 I recently returned from holiday to a Johannes (my colleague) who wasn't very happy with one of our lasers. It was acting up and lasers are *my job*, so naturally I had to deal with it. This is the 493 nm laser, our cooling laser (quite important for our ions) which was misbehaving, badly. As Johannes described it, the 493 nm laser power reaching our ion trap was fluctuating immensely. 

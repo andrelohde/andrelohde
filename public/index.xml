@@ -9,11 +9,11 @@
     <lastBuildDate>Sun, 09 Aug 2026 21:07:53 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>PM Fiber Alignment Hack</title>
+      <title>About aligning polarization-maintaining fibers</title>
       <link>http://localhost:1313/blog/pm-fiber-alignment-hack/</link>
       <pubDate>Sun, 09 Aug 2026 21:07:53 +0200</pubDate>
       <guid>http://localhost:1313/blog/pm-fiber-alignment-hack/</guid>
-      <description>Here, I share how I align the polarization of light for incoupling into a polarization-maintaining fiber, which I often experience as quite finicky.</description>
+      <description>Here, I share how I use peltier elements to correctly align the polarization of light for incoupling into a polarization-maintaining fiber, which I often experience as quite finicky.</description>
     </item>
     <item>
       <title>Hello World</title>
