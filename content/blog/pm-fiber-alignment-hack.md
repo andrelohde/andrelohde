@@ -2,7 +2,7 @@
 date = '2026-08-09T21:07:53+02:00'
 draft = false
 title = 'PM Fiber Alignment Hack'
-summary = 'Here, I share how I align the polarization of light for incoupling into a polarization-maintaining fiber, which I experience as often quite finicky.'
+summary = 'Here, I share how I align the polarization of light for incoupling into a polarization-maintaining fiber, which I often experience as quite finicky.'
 +++
 
 I recently returned from holiday to a Johannes (my colleague) who wasn't very happy with one of our lasers. It was acting up and lasers are *my job*, so naturally I had to deal with it. This is the 493 nm laser, our cooling laser (quite important for our ions) which was misbehaving, badly. As Johannes described it, the 493 nm laser power reaching our ion trap was fluctuating immensely. 
@@ -51,7 +51,7 @@ How does it work? Heating up the fiber will generally rotate the polarization, w
 5. Repeat steps 1-4 for input HWP angles from $0°$ to $45°$ in $5°$ steps. You will find that a specific angle $\alpha$ gives a minimal amount of fluctuation.
 6. Find the optimum angle close to $\alpha$ and try to see if $\alpha + 45°$ offers even better performance. For my purposes a few percent of amplitude fluctuation is typically good enough.
 
-Et voilà, this is how you can very easily align a PM fiber to 1-2° precision without any bigger troubles.
+Et voilà, this is how you can very easily align a PM fiber to $1-2°$ precision without any bigger troubles.
 
 ### References
 

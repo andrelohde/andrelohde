@@ -13,7 +13,7 @@
       <link>http://localhost:1313/blog/pm-fiber-alignment-hack/</link>
       <pubDate>Sun, 09 Aug 2026 21:07:53 +0200</pubDate>
       <guid>http://localhost:1313/blog/pm-fiber-alignment-hack/</guid>
-      <description>&lt;p&gt;I recently returned from holiday to a Johannes (my colleague) who wasn&amp;rsquo;t very happy with one of our lasers. It was acting up and lasers are &lt;em&gt;my job&lt;/em&gt;, so naturally I had to deal with it. This is the 493 nm laser, our cooling laser (quite important for our ions) which was misbehaving, badly. As Johannes described it, the 493 nm laser power reaching our ion trap was fluctuating immensely.&lt;/p&gt;</description>
+      <description>Here, I share how I align the polarization of light for incoupling into a polarization-maintaining fiber, which I experience as often quite finicky.</description>
     </item>
     <item>
       <title>Hello World</title>
